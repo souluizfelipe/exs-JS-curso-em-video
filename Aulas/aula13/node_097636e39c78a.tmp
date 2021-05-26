@@ -1,0 +1,29 @@
+// console.log('tudo bem?')
+// console.log('tudo bem?')
+// console.log('tudo bem?')
+// console.log('tudo bem?')
+// console.log('tudo bem?')
+// console.log('tudo bem?')
+
+
+// var c = 1 
+// while(c <= 56 ) {
+//     console.log(`Passo ${c}`)
+//     c++
+// } 
+
+// var c = 1 
+// do{
+//     console.log(`Passo ${c}`)
+//     c++
+// }while(c <= 12 )  
+
+
+
+const d = 98
+
+while (d >= 2){
+    console.log (d)
+}
+
+

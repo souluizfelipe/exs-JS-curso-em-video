@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <p>Digite um número de 1 a 100 abaixo</p>
+                <p>Número <input type="number" name="num" id="num">
+                <button id="adicionar" onclick="adicionarNumero()">Adicionar</button>
+            </p>
+            <Select id="selRes" size="10"></Select>
+            <button id="calc" onclick="calcular()">Calcular</button>
+        </div>
+        <div>
+            <p id="info">Adicone os números para ver as informações</p>
+        </div>
+    </section>
+    <footer>&copy; Curso em vídeo</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
